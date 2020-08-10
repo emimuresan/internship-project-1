@@ -2,7 +2,7 @@ import React, { useState, useContext, createContext } from "react";
 
 const defaultValue = {
   user: {
-    username: "",
+  username: "",
     password: "",
     firstName: "",
     lastName: "",
