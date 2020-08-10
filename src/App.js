@@ -11,7 +11,7 @@ const client = new ApolloClient({
     console.log("networkError", networkError);
   },
 });
-
+console.log("test");
 export default function App() {
   return (
     <ApolloProvider client={client}>
